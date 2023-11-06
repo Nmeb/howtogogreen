@@ -23,7 +23,7 @@ header ul {
   list-style: none;
   background: #003c47;
   padding: 1em;
-  font-size: 0.em;
+  font-size: 0.9em;
 }
 
 header a {
@@ -61,7 +61,9 @@ h1 {
   width: 95%;
   display: block;
   margin: auto;
+
 }
+
 .section1 p{
   width: 95%;
   margin: 1.3em auto;
