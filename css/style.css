@@ -7,7 +7,21 @@
 body {
   font-family:Helvetica, sans-serif;
   background-color: #f0f0f2;
+  
 }
+
+main {
+  margin: auto;
+  width: 95%;
+
+}
+
+h2 {
+font-size: 1.3em;
+
+}
+
+/* logo */
 
 header img {
   display: block;
@@ -15,6 +29,7 @@ header img {
   width: 40%;
 }
 
+/* menubalk */
 
 header ul {
   display: flex;
@@ -24,6 +39,9 @@ header ul {
   background: #003c47;
   padding: 1em;
   font-size: 0.9em;
+  border: 1px solid;
+  border-radius: 1em;
+
 }
 
 header a {
@@ -38,24 +56,20 @@ header a:focus {
   
 }
 
-.index main {
-  margin: auto;
-  width: 95%;
-
-}
-
 h1 {
   text-align: center;
-  font-size: 1.4em;
+  font-size: 1.5em;
   margin: 3em auto;
-  font-weight: lighter;
+  
 }
 
-.index p {
+p {
   line-height: 1.5em;
   font-size: 0.8em;
   
 }
+
+/* eerste pagina (home) */
 
 .section1 img {
   width: 95%;
@@ -113,12 +127,48 @@ h1 {
   background: #ffb4e1;
   width: 61%;
   margin: 2em auto 0.3em;
+
 }
 
 
+/* tweede pagina (initiatieven) */
+
+
+.initiatieven h1 {
+  text-align: center;
+  color: black;
+  padding: 0.5em;
+  background: #ffb4e1;
+  width: 61%;
+
+}
+
+
+.initiatieven h3 {
+  font-size: 1.2em;
+  margin-top: 3em;
+  margin-bottom: -1.3em;
+
+}
+
+.initiatieven main ul {
+  margin: 2em 2em;
+}
+
+.initiatieven main li {
+  margin-top: 1em;
+}
+
+.afval p {
+  width: 59%;
+
+}
 
 footer nav {
   border: 2em solid #003c47;
+
 }
+
+
 
 
