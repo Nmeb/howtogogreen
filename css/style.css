@@ -1,6 +1,6 @@
 * {
   margin: 0;
-  
+  padding: 0;
 }
 
 body {
@@ -9,7 +9,10 @@ body {
   
 }
 
+
 /* logo */
+
+
 
 header img {
   display: block;
@@ -48,7 +51,14 @@ header a:focus {
 main a {
   text-decoration: underline;
   color: black;
+  border: 1px solid gray;
+  background-color: lightgray;
+  padding: 0.3em;
+}
 
+main {
+  overflow-x: hidden;
+  
 }
 
 hr {
@@ -69,6 +79,8 @@ h2 {
   font-size: 20px;
   text-align: center;
   color:#003c46;
+  margin: 1em auto auto;
+  width: 95%
   
 }
 
@@ -76,15 +88,14 @@ h3 {
   text-align: center;
   font-size: 18px;
   color: #003c46;
-  margin: 0.5em;
+  margin: 2em auto 0.5em;
+  width: 95%
 }
-
-/* eerste pagina (home) */
 
 section img {
   width: 95%;
   display: block;
-  margin: auto;
+  margin: 1em auto;
 
 }
 
@@ -96,23 +107,26 @@ section p{
 
 }
 
-.section2 {
+/* eerste pagina (home) */
+
+.percentages {
   display: flex;
   justify-content: space-evenly;
   margin-top: 3em;
 }
 
-.section2 div {
-  background: #a7a9ac;
-  border-radius: 50%;
-  width: 50px;
-  height: 50px;
+.percentages img {
+  width: 30%;
 
 }
 
+.gemiddeld{
+  text-align: right;
+  margin-top: -2em;
+
+}
 .section3{
   margin: auto 3em;
-  width: 78%
 }
 
 .section4 h2 {
@@ -131,7 +145,6 @@ section p{
 
 }
 
-
 /* tweede pagina (initiatieven) */
 
 .initiatieven h1 {
@@ -143,17 +156,44 @@ section p{
 
 }
 
-.materialen {
-  margin: 1em auto;
+.materialen div{
+  display: flex;
+  padding: 2em;
+  gap: 1em;
+  background: lightgrey;
+  
   
 }
 
-.materialen div{
-  display: flex;
+.spijker {
+  font-size: 16px;
   padding: 0.5em;
-  gap: 1em;
+  margin-left: 1.5em;
+  margin-bottom: -3em;
+  text-align: left;
+
 }
 
+.kaarsvet {
+  text-align: right;
+  margin-bottom: -2em;
+  margin-left: -4em;
+
+}
+
+.plastic{
+  font-size: 16px;
+  padding: 0.5em;
+  margin-left: 1.5em;
+  margin-bottom: -3em;
+  text-align: left;
+
+}
+
+.materialen img {
+  width: 50%;
+
+}
 
 .materialen p{
   width: 50%;
@@ -161,39 +201,9 @@ section p{
   align-items: center;
 
 }
-.kaarsvet {
-  text-align: right;
-  margin-bottom: -1.33em;
-  margin-right: 5.2em;
 
-  
-}
-.spijker {
-  font-size: 16px;
-  padding: 0.5em;
-  margin-left: auto;
-  margin-bottom: -2em;
-  text-align: left;
-}
+/*derde pagina*/
 
-.plastic{
-  font-size: 16px;
-  padding: 0.5em;
-  margin-left: auto;
-  margin-bottom: -1em;
-  text-align: left;
-}
-.materialen section {
-  background: lightgrey;
-  padding-top: 1em;
-
-}
-
-
-.materialen img {
-  width: 50%;
-
-}
 
 address {
   width: 95%;
