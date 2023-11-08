@@ -143,28 +143,31 @@ section p{
 
 }
 
-.afval ol{
-
-}
-.afval {
-
-}
-.initiatieven ol {
-  margin: 2em auto;
+.afval{
   display: flex;
-  align-items: center;
+  background: lightgrey;
+  padding: 1em;
+  margin: 1em auto;
+}
+.afval ol{
+  width: 50%;
+}
+
+.afval div{
+  width: 50%;
+}
+
+.afval img {
+  width: 100%;
+
 }
 
 .afval li {
+  line-height: 1.5em;
 
 }
-.afval div{
-  
-}
-.afval img {
-  width: 50%;
 
-}
+
 footer nav {
   margin-top: 3em;
   border: 2em solid #86c240;
