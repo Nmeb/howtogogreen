@@ -143,28 +143,50 @@ section p{
 
 }
 
-.afval{
+.materialen {
+  margin: 2em auto;
+}
+.materialen div{
   display: flex;
-  background: lightgrey;
-  padding: 1em;
+  padding-right: 1em;
+  padding-left: 1em;
   margin: 1em auto;
+  gap: 1em;
 }
-.afval ol{
+
+
+.materialen p{
   width: 50%;
+
 }
 
-.afval div{
+.materialen h3 {
+  margin-bottom: -1em;
+  width: 75%;
+  font-size: 17px;
+}
+.materialen section {
+  background: lightgrey;
+
+}
+.kaarsvet {
+  text-align: left;
+  margin-left: 1em;
+}
+.spijkerstof, .plastic {
+  text-align: right;
+
+}
+
+.materialen img {
   width: 50%;
-}
-
-.afval img {
-  width: 100%;
 
 }
 
-.afval li {
-  line-height: 1.5em;
-
+address {
+  width: 95%;
+  margin: auto;
+  font-size: 15px;
 }
 
 
