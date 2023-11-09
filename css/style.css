@@ -202,13 +202,18 @@ section p{
 
 }
 
-/*derde pagina*/
-
-
 address {
   width: 95%;
   margin: auto;
   font-size: 15px;
+}
+
+/*derde pagina*/
+.galerij div{
+  display: flex;
+  flex-wrap: wrap;
+  width: 80%;
+  margin: auto;
 }
 
 
