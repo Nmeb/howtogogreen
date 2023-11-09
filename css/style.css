@@ -4,8 +4,9 @@
 }
 
 body {
-  font-family: Helvetica, sans-serif;
+  font-family: 'Quicksand', sans-serif;
   background-color: #f0f0f2;
+  
   
 }
 
@@ -159,22 +160,21 @@ section p{
 .materialen div{
   display: flex;
   padding: 1em;
-  gap: 1em;
-  
+  gap: 1em;  
   
 }
 
 .spijker {
   font-size: 16px;
   margin-left: 1em;
-  margin-bottom: -3em;
+  margin-bottom: -2em;
   text-align: left;
 
 }
 
 .kaarsvet {
   text-align: right;
-  margin-bottom: -3.2em;
+  margin-bottom: -2.4em;
   margin-left: -4.2em;
 
 }
@@ -207,15 +207,26 @@ address {
 }
 
 /*derde pagina*/
+
+
 .galerij div{
   display: flex;
   flex-wrap: wrap;
-  width: 80%;
   margin: auto;
 }
 
+.galerij main img {
+  border: 1px solid #f0f0f2;
+  padding: 1em;
+  background: lightgray;
+  width: 80%;
+
+}
 /*footer*/
 
+footer nav {
+  margin-top: 3em;
+}
 
 footer ul {
   display: flex;
