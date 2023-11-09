@@ -22,34 +22,6 @@ header img {
 
 /* menubalk */
 
-footer ul {
-  display: flex;
-  align-items: center;
-  list-style: none;
-  padding: 1em;
-  background: #9dba90;
-
-}
-
-footer a {
-  text-decoration: none;
-  list-style: none;
-  color: #003c46;
-  display: flex;
-  justify-content: space-evenly;
-}
-
-footer em {
-  margin: 1.3em;
-  line-height: 1.5em;
-
-
-}
-footer img {
-  width: 40%;
-  
-}
-
 
 header ul {
   display: flex;
@@ -173,9 +145,9 @@ section p{
 
 }
 
-/* tweede pagina (initiatieven) */
+/* tweede pagina (initiatief) */
 
-.initiatieven h1 {
+.initiatief h1 {
   text-align: center;
   color: black;
   padding: 0.5em;
@@ -242,8 +214,34 @@ address {
   margin: auto;
 }
 
+/*footer*/
 
 
+footer ul {
+  display: flex;
+  align-items: center;
+  list-style: none;
+  padding: 1em;
+  background: #9dba90;
+}
 
+footer a {
+  text-decoration: none;
+  list-style: none;
+  color: #003c46;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+footer em {
+  margin: 1.3em;
+  line-height: 1.5em;
+
+
+}
+footer img {
+  width: 50%;
+  
+}
 
 
