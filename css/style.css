@@ -22,6 +22,35 @@ header img {
 
 /* menubalk */
 
+footer ul {
+  display: flex;
+  align-items: center;
+  list-style: none;
+  padding: 1em;
+  background: #9dba90;
+
+}
+
+footer a {
+  text-decoration: none;
+  list-style: none;
+  color: #003c46;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+footer em {
+  margin: 1.3em;
+  line-height: 1.5em;
+
+
+}
+footer img {
+  width: 40%;
+  
+}
+
+
 header ul {
   display: flex;
   justify-content: space-evenly;
@@ -29,8 +58,8 @@ header ul {
   list-style: none;
   padding: 1em;
   font-size: 16px;
-  border-bottom: 2px solid #86c240;
-  border-top: 2px solid #86c240;
+  border-bottom: 2px solid #9dba90;
+  border-top: 2px solid #9dba90;
 
 }
 
@@ -42,17 +71,17 @@ header a {
 }
 
 header a:focus {
-  background: #86c240 ;
+  background: #9dba90 ;
   padding: 1em;
 }
 
 /*styling die geldt voor alle paginas*/
 
 main a {
-  text-decoration: underline;
+  text-decoration: none;
   color: black;
   border: 1px solid gray;
-  background-color: lightgray;
+  background-color: #9dba90;
   padding: 0.3em;
 }
 
@@ -79,7 +108,6 @@ h2 {
   font-size: 20px;
   text-align: center;
   color:#003c46;
-  margin: 1em auto auto;
   width: 95%
   
 }
@@ -158,17 +186,15 @@ section p{
 
 .materialen div{
   display: flex;
-  padding: 2em;
+  padding: 1em;
   gap: 1em;
-  background: lightgrey;
   
   
 }
 
 .spijker {
   font-size: 16px;
-  padding: 0.5em;
-  margin-left: 1.5em;
+  margin-left: 1em;
   margin-bottom: -3em;
   text-align: left;
 
@@ -176,16 +202,16 @@ section p{
 
 .kaarsvet {
   text-align: right;
-  margin-bottom: -2em;
-  margin-left: -4em;
+  margin-bottom: -3.2em;
+  margin-left: -4.2em;
 
 }
 
 .plastic{
   font-size: 16px;
   padding: 0.5em;
-  margin-left: 1.5em;
-  margin-bottom: -3em;
+  margin-left: 0.5em;
+  margin-bottom: -4em;
   text-align: left;
 
 }
@@ -217,11 +243,6 @@ address {
 }
 
 
-footer nav {
-  margin-top: 3em;
-  border: 2em solid #86c240;
-
-}
 
 
 
